@@ -1,0 +1,52 @@
+# Python / caches
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Editors
+.idea/
+.vscode/
+*.iml
+*.code-workspace
+*.Zone.Identifier
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# Logs / outputs
+*.log
+outputs/
+out/
+runs/
+results/
+ray_results/
+
+# Model / data artifacts
+*.parquet
+*.arrow
+*.feather
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.bin
+*.safetensors
+checkpoints/
+checkpoint/
+ckpt/
+
+# Large local datasets / bridge outputs
+TencentGR-1M/
+processed_tencentgr_for_llm4rec/
+tmp_tencentgr_bridge_test/
+creative_emb/
+emb/

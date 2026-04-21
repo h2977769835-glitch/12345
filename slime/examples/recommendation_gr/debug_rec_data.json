@@ -1,0 +1,5 @@
+{
+  "u1": ["itemA", "itemB", "itemC"],
+  "u2": ["itemD", "itemA"],
+  "u3": ["itemB", "itemC", "itemD", "itemA"]
+}
